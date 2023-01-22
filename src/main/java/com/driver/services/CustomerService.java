@@ -1,7 +1,10 @@
 package com.driver.services;
 
 
+import java.util.List;
+
 import com.driver.model.Customer;
+import com.driver.model.Driver;
 import com.driver.model.TripBooking;
 
 
@@ -17,5 +20,4 @@ public interface CustomerService {
 
 	public void completeTrip(Integer tripId);
 
-	void registerCustomer(Customer customer);
 }
